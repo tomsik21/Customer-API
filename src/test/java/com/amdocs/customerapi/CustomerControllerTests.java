@@ -8,10 +8,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-public class EmployeesControllerTests {
+public class CustomerControllerTests {
 
 	@Autowired
-	private EmployeeController controller;
+	private CustomerController controller;
 
   @Test
 	public void contextLoads() throws Exception {
